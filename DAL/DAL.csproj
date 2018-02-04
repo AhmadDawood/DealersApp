@@ -71,8 +71,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <None Include="App_Obsolete_New.Config" />
-    <None Include="App_Obsolete.Config" />
     <EntityDeploy Include="DealersModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>DealersModel.Designer.cs</LastGenOutput>
@@ -96,7 +94,6 @@
       <DependentUpon>DealersModel.edmx</DependentUpon>
       <LastGenOutput>DealersModel.cs</LastGenOutput>
     </Content>
-    <Content Include="FunctionTree.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
